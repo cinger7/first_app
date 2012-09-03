@@ -11,7 +11,7 @@ group :production do
 end
 
 group :development, :test do
-  gem 'sqlite3-ruby', '1.3.6'
+  gem 'sqlite3-ruby'
 end
 
 # Gems used only for assets and not required
